@@ -5,7 +5,7 @@ int endY = 50;
 void setup()
 {
   size(300,300);  // 300 pixels by 300 pixels
-  background(0);
+  background(0);  /Setting background to black
   strokeWeight(3);
 }
 void draw()
