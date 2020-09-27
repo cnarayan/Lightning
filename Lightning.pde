@@ -4,7 +4,7 @@ int endX = 0;
 int endY = 50;
 void setup()
 {
-  size(300,300);
+  size(300,300);  // 300 pixels by 300 pixels
   background(0);
   strokeWeight(3);
 }
@@ -26,6 +26,5 @@ void mousePressed()
   startY = 150;
   endX = 0;
   endY = 50;
-
 }
 
